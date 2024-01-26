@@ -4,7 +4,6 @@ starwarsSoundtrack.volume = 0.2
 const notificationSound = new Audio('./assets/notificationSound.wav')
 notificationSound.volume = 0.2
 
-// script.js
 document.addEventListener('DOMContentLoaded', () => {
   const saludos = [
       "Hola Yeray",
@@ -32,8 +31,27 @@ document.addEventListener('DOMContentLoaded', () => {
       nombre: "Nisa", 
       mensaje: `
       "Super Yera!!! Enhorabuena por tu primer año en Reboot!! Espero que estés tan a 
-      gusto como nos haces sentir al resto, has sido un fichaje TOP, por muchos años más🥳♥️"` },
-
+      gusto como nos haces sentir al resto, has sido un fichaje TOP, por muchos años más🥳♥️"` 
+    },
+    { 
+      nombre: "Juanan", 
+      mensaje: `
+      "Enhorabuena señor! Por muchos años más donde pueda seguir aprendiendo de tí, 
+      y tú sigas pareciendo más joven que yo. Muchas gracias por ser como eres!!!"` 
+    },
+    { 
+      nombre: "Theshia", 
+      mensaje: `
+      "Te he estado esperando, Obi-Wan. Nos volvemos a encontrar, por fin. El círculo está 
+      ahora completo. Cuando te dejé, no era más que el aprendiz; ahora soy el maestro"` 
+    },
+    { 
+      nombre: "Pedro", 
+      mensaje: `
+      "Hay dos tipos de personas en el mundo, según Einstein, y justo encima de todo eso 
+      están aquellas que son como Yeray."` 
+    },
+    
 ];
 
   const masMensajes = [
