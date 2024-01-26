@@ -2,7 +2,7 @@ const starwarsSoundtrack = new Audio('./assets/starwarsSoundtrack.mp3')
 starwarsSoundtrack.volume = 0.2
 
 const notificationSound = new Audio('./assets/notificationSound.mp3')
-notificationSound.volume = 0.2
+notificationSound.volume = 1
 
 document.addEventListener('DOMContentLoaded', () => {
   const saludos = [
