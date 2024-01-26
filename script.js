@@ -93,6 +93,12 @@ document.addEventListener('DOMContentLoaded', () => {
       `
     },
     {
+      nombre: "Abel",
+      mensaje: `
+      El Sensei que se convirtió en ídolo, el ídolo que se convirtió en leyenda...De mayor quiero ser como tú.
+      `
+    },
+    {
       nombre: "Adri A.",
       mensaje: `
       No encuentro las palabras exactas para expresar el aprecio que te tengo. Pero es que eres un tío increíble,con esas 
