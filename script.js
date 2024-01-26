@@ -4,8 +4,8 @@ starwarsSoundtrack.volume = 0.2
 const notificationSound = new Audio('./assets/notificationSound.wav')
 notificationSound.volume = 0.2
 
-const button = document.querySelector('button')
-button.addEventListener("click", () => {
+// script.js
+document.addEventListener('DOMContentLoaded', () => {
   const saludos = [
       "Hola Yeray",
       "¿Qué tal?",
