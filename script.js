@@ -18,45 +18,49 @@ document.addEventListener('DOMContentLoaded', () => {
     { 
       nombre: "Fer", 
       mensaje: `
-      "Felicidades por tu primer año en la familia Reboot. Dentro de poco tendrás tu casco personalizado. This is the way. We love you"` 
+      "Felicidades por tu primer año en la familia Reboot. Dentro de poco tendrás tu casco personalizado. This is the way. We love you"
+      ` 
     },
     { 
       nombre: "Ira", 
       mensaje: `
-      "A mi compi de dulces favorito: no hay palabras para expresar lo grandísimo que eres. Por una eternidad más, no cambies nunca ❤️"` 
+      "A mi compi de dulces favorito: no hay palabras para expresar lo grandísimo que eres. Por una eternidad más, no cambies nunca ❤️"
+      ` 
     },
     {
       nombre: "Álvaro",
       mensaje: `
-      Administrador de sistemas, programador, profe... Eres el músculo de Reboot. Esto no sería nada sin ti. ¡Muchas gracias por todo el 
-      curro titán! ¡Felicidades!
+      "Administrador de sistemas, programador, profe... Eres el músculo de Reboot. Esto no sería nada sin ti. ¡Muchas gracias por todo el 
+      curro titán! ¡Felicidades!"
       `
     },
     { 
       nombre: "Juanan", 
       mensaje: `
       "Enhorabuena señor! Por muchos años más donde pueda seguir aprendiendo de tí, y tú sigas pareciendo más joven que yo. Muchas 
-      gracias por ser como eres!!!"` 
+      gracias por ser como eres!!!"
+      ` 
     },
     { 
       nombre: "Nisa", 
       mensaje: `
       "Super Yera!!! Enhorabuena por tu primer año en Reboot!! Espero que estés tan a gusto como nos haces sentir al resto, has sido un 
-      fichaje TOP, por muchos años más🥳♥️"` 
+      fichaje TOP, por muchos años más🥳♥️"
+      ` 
     },
     {
       nombre: "Alfredo",
       mensaje: `
-      Felicidades por un año lleno de muchas risas, fuertes abrazos y de mucha comida no desperdiciada.
+      "Felicidades por un año lleno de muchas risas, fuertes abrazos y de mucha comida no desperdiciada."
       `
     },
 
     {
       nombre: "Marina",
       mensaje: `
-      Gracias por estar siempre dispuesto a arreglar mis problemas de audio con mis reuniones por zoom, por comprar siempre postre 
+      "Gracias por estar siempre dispuesto a arreglar mis problemas de audio con mis reuniones por zoom, por comprar siempre postre 
       para que yo pueda probarlo  y por hacer evidente cuanta gente me hace falta para llenar un Bootcamp, eres el mejor dando 
-      ánimos (nótese la ironía)😂. No te vayas nunca. Te queremos
+      ánimos (nótese la ironía)😂. No te vayas nunca. Te queremos"
       `
     },
     { 
@@ -64,18 +68,21 @@ document.addEventListener('DOMContentLoaded', () => {
       mensaje: `
       "Me enseñaste algo más que a programar, me enseñaste a confiar en mi mismo. Gran parte de lo que soy y lo que he conseguido 
       ha sido gracias a ti. Te aprecié mucho como profesor y te aprecio aún más como compañero. Por más tiempo motivando a 
-      gente!"`
+      gente!"
+      `
     },
     { 
       nombre: "Theshia", 
       mensaje: `
       "Te he estado esperando, Obi-Wan. Nos volvemos a encontrar, por fin. El círculo está ahora completo. Cuando te dejé, no 
-      era más que el aprendiz; ahora soy el maestro"` 
+      era más que el aprendiz; ahora soy el maestro"
+      ` 
     },
     { 
       nombre: "Pedro", 
       mensaje: `
-      "Hay dos tipos de personas en el mundo, según Einstein, y justo encima de todo eso están aquellas que son como Yeray."` 
+      "Hay dos tipos de personas en el mundo, según Einstein, y justo encima de todo eso están aquellas que son como Yeray."
+      ` 
     },
     { 
       nombre: "Pedro", 
@@ -86,45 +93,52 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       nombre: "Alma",
       mensaje: `
-      Hey Yera! Primero que nada felicitarte por tu primer año en reboot(y espero que sean más). Y segundo decirte que tanto 
+      "Hey Yera! Primero que nada felicitarte por tu primer año en reboot(y espero que sean más). Y segundo decirte que tanto 
       de profe como persona me pareces genial, siempre traes buen rollo a las clases y a dónde vayas, con todas tus bromas y 
       tu característica risa, además siempre estás ahí para ayudar en cualquier problema y momento. Sigue siendo tú :) Stay 
-      hungry!
+      hungry!"
       `
     },
     {
       nombre: "Abel",
       mensaje: `
-      El Sensei que se convirtió en ídolo, el ídolo que se convirtió en leyenda...De mayor quiero ser como tú.
+      "El Sensei que se convirtió en ídolo, el ídolo que se convirtió en leyenda...De mayor quiero ser como tú."
       `
     },
     {
       nombre: "Adri A.",
       mensaje: `
-      No encuentro las palabras exactas para expresar el aprecio que te tengo. Pero es que eres un tío increíble,con esas 
+      "No encuentro las palabras exactas para expresar el aprecio que te tengo. Pero es que eres un tío increíble,con esas 
       bromas y esa sonrisa que nos alegra a todos, los días en reboot y en especial para ti mil gracias por ser tan bueno 
       tanto como mentor como de programador para conseguir que muchos de nosotros encontremos nuestro huequito en la 
-      programación.
+      programación."
       `
     },
     {
       nombre: "Aaron",
       mensaje: `
-      Eres un coco. Cualquier problema que surje, estás ahí para solucionarlo. No hay cosa que no sepas hacer chico! Eres 
-      un ejemplo a seguir, te admiro mucho. No te me duermas, o el alumno acabará superando al maestro
+      "Eres un coco. Cualquier problema que surje, estás ahí para solucionarlo. No hay cosa que no sepas hacer chico! Eres 
+      un ejemplo a seguir, te admiro mucho. No te me duermas, o el alumno acabará superando al maestro"
       `
     },
     {
       nombre: "Guaya",
       mensaje: `
-      Gracias por todo lo que me has enseñado durante los últimos meses, espero seguir aprendiendo de ti muchos años más, 
-      sensei. 🫡
+      "Gracias por todo lo que me has enseñado durante los últimos meses, espero seguir aprendiendo de ti muchos años más, 
+      sensei." 🫡
+      `
+    },
+    {
+      nombre: "Jose Carlos",
+      mensaje: `
+      "Muchas felicidades Don Yeray, espero que sigas por muchos muchos muchos muchos años igual de friki, de glotón, de buen profe y de buen compañero
+      no cambies nunca crack!" 🫡
       `
     },
     {
       nombre: "TODOS",
       mensaje: `
-      ¡¡TITÁN!!, ¡¡MÁQUINA!!, ¡¡MASTODONTE!!, !!!! 
+      "¡¡TITÁN!!, ¡¡MÁQUINA!!, ¡¡MASTODONTE!!, !!!!"
       `
     },
 ];
