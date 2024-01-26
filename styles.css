@@ -29,7 +29,7 @@ body {
 
 #felicidades {
   display: none;
-  background-image: url(./assets/fondo.webp);
+  background-image: url(./assets/fondo.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -67,18 +67,20 @@ body {
   perspective: 400px;
   display: none; /* Inicialmente oculto */
   z-index: 11;
+  perspective: 800px; /* Ajusta este valor según necesites */
 }
 
 #starwars-text {
+  font-family: 'News Cycle', sans-serif;
   transform-origin: 50% 100%;
-  animation: scroll-text 60s linear infinite;
+  animation: scroll-text 400s linear infinite;
   color: yellow;
   text-align: justify;
-  font-size: 20px;
+  font-size: 30px;
   white-space: pre; /* Mantiene los saltos de línea y espacios */
-  width: 50vw;
-  margin: 0 auto;
-  
+  width: 80vw;
+  margin: 0 auto;  
+  transform: translateZ(.1500px);
 }
 
 #felicidades {
@@ -112,10 +114,10 @@ button:active {
 
 @keyframes scroll-text {
   from {
-      transform: rotateX(25deg) translateY(200%);
+      transform: rotateX(25deg) translateY(28%) translateZ(1700px)
   }
   to {
-      transform: rotateX(25deg) translateY(-300%);
+      transform: rotateX(25deg) translateY(-300%) translateZ(1700px);
   }
 }
 

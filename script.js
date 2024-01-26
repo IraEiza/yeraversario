@@ -1,7 +1,7 @@
 const starwarsSoundtrack = new Audio('./assets/starwarsSoundtrack.mp3')
 starwarsSoundtrack.volume = 0.2
 
-const notificationSound = new Audio('./assets/notificationSound.wav')
+const notificationSound = new Audio('./assets/notificationSound.mp3')
 notificationSound.volume = 0.2
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -16,48 +16,116 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const mensajes = [
     { 
+      nombre: "Fer", 
+      mensaje: `
+      "Felicidades por tu primer año en la familia Reboot. Dentro de poco tendrás tu casco personalizado. This is the way. We love you"` 
+    },
+    { 
       nombre: "Ira", 
       mensaje: `
-      "Eres un grande Yera!"` 
+      "A mi compi de dulces favorito: no hay palabras para expresar lo grandísimo que eres. Por una eternidad más, no cambies nunca ❤️"` 
     },
-    { 
-      nombre: "Raúl", 
+    {
+      nombre: "Álvaro",
       mensaje: `
-      "Me enseñaste algo más que a programar, me enseñaste a confiar en mi mismo. 
-      Gran parte de lo que soy y lo que he conseguido ha sido gracias a ti. Te aprecié mucho 
-      como profesor y te aprecio aún más como compañero. Por más tiempo motivando a gente!"`
-    },
-    { 
-      nombre: "Nisa", 
-      mensaje: `
-      "Super Yera!!! Enhorabuena por tu primer año en Reboot!! Espero que estés tan a 
-      gusto como nos haces sentir al resto, has sido un fichaje TOP, por muchos años más🥳♥️"` 
+      Administrador de sistemas, programador, profe... Eres el músculo de Reboot. Esto no sería nada sin ti. ¡Muchas gracias por todo el 
+      curro titán! ¡Felicidades!
+      `
     },
     { 
       nombre: "Juanan", 
       mensaje: `
-      "Enhorabuena señor! Por muchos años más donde pueda seguir aprendiendo de tí, 
-      y tú sigas pareciendo más joven que yo. Muchas gracias por ser como eres!!!"` 
+      "Enhorabuena señor! Por muchos años más donde pueda seguir aprendiendo de tí, y tú sigas pareciendo más joven que yo. Muchas 
+      gracias por ser como eres!!!"` 
+    },
+    { 
+      nombre: "Nisa", 
+      mensaje: `
+      "Super Yera!!! Enhorabuena por tu primer año en Reboot!! Espero que estés tan a gusto como nos haces sentir al resto, has sido un 
+      fichaje TOP, por muchos años más🥳♥️"` 
+    },
+    {
+      nombre: "Alfredo",
+      mensaje: `
+      Felicidades por un año lleno de muchas risas, fuertes abrazos y de mucha comida no desperdiciada.
+      `
+    },
+
+    {
+      nombre: "Marina",
+      mensaje: `
+      Gracias por estar siempre dispuesto a arreglar mis problemas de audio con mis reuniones por zoom, por comprar siempre postre 
+      para que yo pueda probarlo  y por hacer evidente cuanta gente me hace falta para llenar un Bootcamp, eres el mejor dando 
+      ánimos (nótese la ironía)😂. No te vayas nunca. Te queremos
+      `
+    },
+    { 
+      nombre: "Raúl", 
+      mensaje: `
+      "Me enseñaste algo más que a programar, me enseñaste a confiar en mi mismo. Gran parte de lo que soy y lo que he conseguido 
+      ha sido gracias a ti. Te aprecié mucho como profesor y te aprecio aún más como compañero. Por más tiempo motivando a 
+      gente!"`
     },
     { 
       nombre: "Theshia", 
       mensaje: `
-      "Te he estado esperando, Obi-Wan. Nos volvemos a encontrar, por fin. El círculo está 
-      ahora completo. Cuando te dejé, no era más que el aprendiz; ahora soy el maestro"` 
+      "Te he estado esperando, Obi-Wan. Nos volvemos a encontrar, por fin. El círculo está ahora completo. Cuando te dejé, no 
+      era más que el aprendiz; ahora soy el maestro"` 
     },
     { 
       nombre: "Pedro", 
       mensaje: `
-      "Hay dos tipos de personas en el mundo, según Einstein, y justo encima de todo eso 
-      están aquellas que son como Yeray."` 
+      "Hay dos tipos de personas en el mundo, según Einstein, y justo encima de todo eso están aquellas que son como Yeray."` 
     },
-    
+    { 
+      nombre: "Pedro", 
+      mensaje: `
+      "Feliz aniversario! May the code be with you !!"
+      ` 
+    },
+    {
+      nombre: "Alma",
+      mensaje: `
+      Hey Yera! Primero que nada felicitarte por tu primer año en reboot(y espero que sean más). Y segundo decirte que tanto 
+      de profe como persona me pareces genial, siempre traes buen rollo a las clases y a dónde vayas, con todas tus bromas y 
+      tu característica risa, además siempre estás ahí para ayudar en cualquier problema y momento. Sigue siendo tú :) Stay 
+      hungry!
+      `
+    },
+    {
+      nombre: "Adri A.",
+      mensaje: `
+      No encuentro las palabras exactas para expresar el aprecio que te tengo. Pero es que eres un tío increíble,con esas 
+      bromas y esa sonrisa que nos alegra a todos, los días en reboot y en especial para ti mil gracias por ser tan bueno 
+      tanto como mentor como de programador para conseguir que muchos de nosotros encontremos nuestro huequito en la 
+      programación.
+      `
+    },
+    {
+      nombre: "Aaron",
+      mensaje: `
+      Eres un coco. Cualquier problema que surje, estás ahí para solucionarlo. No hay cosa que no sepas hacer chico! Eres 
+      un ejemplo a seguir, te admiro mucho. No te me duermas, o el alumno acabará superando al maestro
+      `
+    },
+    {
+      nombre: "Guaya",
+      mensaje: `
+      Gracias por todo lo que me has enseñado durante los últimos meses, espero seguir aprendiendo de ti muchos años más, 
+      sensei. 🫡
+      `
+    },
+    {
+      nombre: "TODOS",
+      mensaje: `
+      ¡¡TITÁN!!, ¡¡MÁQUINA!!, ¡¡MASTODONTE!!, !!!! 
+      `
+    },
 ];
 
   const masMensajes = [
       "Son tus compis que quieren decirte algo 👀",
       "Siéntate y ponte cómodo porque esto va para largo 🍿"
-      // Añade aquí más frases de la segunda ronda...
   ];
 
   mostrarSaludos(saludos, () => {
@@ -72,6 +140,8 @@ document.addEventListener('DOMContentLoaded', () => {
       });
   });
 });
+
+
 
 function mostrarSaludos(saludos, callback) {
   let indice = 0;
@@ -153,7 +223,7 @@ function apagarLuces(callback) {
 function mostrarMensajesStarWars(mensajes, callback) {
   starwarsSoundtrack.play()
   let textoCompleto = mensajes.map(mensaje => 
-      `${mensaje.mensaje}\n\n       - ${mensaje.nombre}`
+      `${mensaje.mensaje}\n       - ${mensaje.nombre}`
   ).join('\n\n');
 
   const starwarsDiv = document.getElementById('starwars-text');
@@ -161,7 +231,7 @@ function mostrarMensajesStarWars(mensajes, callback) {
 
   // Mostrar la introducción tipo Star Wars
   document.getElementById('starwars-intro').style.display = 'block';
-  setTimeout(callback, 60000) // Muestra la carátula de felicidades!
+  setTimeout(callback, 150000) // Muestra la carátula de felicidades!
 }
 
 function mostrarFelicidades () {
